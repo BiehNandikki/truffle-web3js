@@ -16,7 +16,9 @@
     "typeRoots": [
       "./typings",
       "node_modules/@types",
-      "../../node_modules/@types"
+      "../../node_modules/@types",
+      "node_modules/@types/node",
+      "../../node_modules/@types/mocha",
     ]
   },
   "include": [

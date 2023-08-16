@@ -23476,10 +23476,17 @@ web3-core-subscriptions@1.10.0:
     eventemitter3 "4.0.4"
     web3-core-helpers "1.10.0"
 
+<<<<<<< HEAD
 web3-core@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-core/-/web3-core-1.10.0.tgz#9aa07c5deb478cf356c5d3b5b35afafa5fa8e633"
   integrity sha512-fWySwqy2hn3TL89w5TM8wXF1Z2Q6frQTKHWmP0ppRQorEK8NcHJRfeMiv/mQlSKoTS1F6n/nv2uyZsixFycjYQ==
+=======
+web3-core@1.8.1, web3-core@^4.0.0-alpha.0, web3-core@^4.0.1-alpha.1, web3-core@^4.0.1-alpha.2:
+  version "4.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/web3-core/-/web3-core-4.0.0-alpha.0.tgz#a94b79b4b8c3a8007746ffc21b82db94c5e2872f"
+  integrity sha512-Z84jX3+ylof0sXql0xqUn9CM+q+wZonmP8+mEGDH3ls5swENajIPxk8mcBkgNuvD6msDD9Qq1gk4oDo30S7E9A==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     "@types/bn.js" "^5.1.1"
     "@types/node" "^12.12.6"
@@ -23489,18 +23496,66 @@ web3-core@1.10.0:
     web3-core-requestmanager "1.10.0"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-abi@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.10.0.tgz#53a7a2c95a571e205e27fd9e664df4919483cce1"
   integrity sha512-cwS+qRBWpJ43aI9L3JS88QYPfFcSJJ3XapxOQ4j40v6mk7ATpA8CVK1vGTzpihNlOfMVRBkR95oAj7oL6aiDOg==
+=======
+web3-errors@^0.1.0-alpha.0:
+  version "0.1.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/web3-errors/-/web3-errors-0.1.0-alpha.0.tgz#076f7aed757970d2c3bee78f03f2ade28167b32d"
+  integrity sha512-4uPmqdF3AqTzUDhlaOpxA/K8npDBAOTTcsrM7mD/nZZyqN9G/B8kI0B9KZ38Vdq3G3kKxhRMXndXnENyDaQbdQ==
+  dependencies:
+    web3-types "^0.1.0-alpha.0"
+
+web3-errors@^0.1.1-alpha.1, web3-errors@^0.1.1-alpha.2:
+  version "0.1.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-errors/-/web3-errors-0.1.1-alpha.2.tgz#44af983ec540a450937a6729b9fbe0295f93bb06"
+  integrity sha512-fhGs/PspOSsffkkova3t3WjaKKlILLooYEIDV6b5kFuqTTt7vEkvALts94dDS0GGJK78DZ7Vt9DVphkyYDOpOw==
+  dependencies:
+    web3-types "^0.1.1-alpha.2"
+
+web3-eth-abi@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.8.1.tgz#47455d6513217c4b0866fea6f97b1c4afa0b6535"
+  integrity sha512-0mZvCRTIG0UhDhJwNQJgJxu4b4DyIpuMA0GTfqxqeuqzX4Q/ZvmoNurw0ExTfXaGPP82UUmmdkRi6FdZOx+C6w==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     "@ethersproject/abi" "^5.6.3"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-accounts@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-accounts/-/web3-eth-accounts-1.10.0.tgz#2942beca0a4291455f32cf09de10457a19a48117"
   integrity sha512-wiq39Uc3mOI8rw24wE2n15hboLE0E9BsQLdlmsL4Zua9diDS6B5abXG0XhFcoNsXIGMWXVZz4TOq3u4EdpXF/Q==
+=======
+web3-eth-abi@^4.0.0-alpha.0:
+  version "4.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-4.0.0-alpha.0.tgz#af7aba3965b9544b360b059ab397e5f395f57ae4"
+  integrity sha512-rIY4k8O4T+r5gW1QxaReFMmKm3cqdfyKf8DK4BXBBLZm80Ys+gWuYZkC1PnhexpV8QT1YKGKAMAVzrsZ1RAeKw==
+  dependencies:
+    "@ethersproject/abi" "^5.6.4"
+    web3-errors "^0.1.0-alpha.0"
+    web3-types "^0.1.0-alpha.0"
+    web3-utils "^4.0.0-alpha.1"
+
+web3-eth-abi@^4.0.1-alpha.1, web3-eth-abi@^4.0.1-alpha.2:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-4.0.1-alpha.2.tgz#1faf02b89af80c9c584415126574ad1dc296055b"
+  integrity sha512-4LzZCtdtvTo2YE/YICmH7eV8SYTdo05lOjIHYoAkmiJS2hL9egB9lRpcTNDYQyFAm5v8Km5oZBdyQroT/ePVAQ==
+  dependencies:
+    "@ethersproject/abi" "^5.6.4"
+    web3-errors "^0.1.1-alpha.2"
+    web3-types "^0.1.1-alpha.2"
+    web3-utils "^4.0.1-alpha.2"
+
+web3-eth-accounts@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-accounts/-/web3-eth-accounts-1.8.1.tgz#1ce7387721f118aeb0376291e4d8bbe2ac323406"
+  integrity sha512-mgzxSYgN54/NsOFBO1Fq1KkXp1S5KlBvI/DlgvajU72rupoFMq6Cu6Yp9GUaZ/w2ij9PzEJuFJk174XwtfMCmg==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     "@ethereumjs/common" "2.5.0"
     "@ethereumjs/tx" "3.3.2"
@@ -23513,10 +23568,17 @@ web3-eth-accounts@1.10.0:
     web3-core-method "1.10.0"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-contract@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-contract/-/web3-eth-contract-1.10.0.tgz#8e68c7654576773ec3c91903f08e49d0242c503a"
   integrity sha512-MIC5FOzP/+2evDksQQ/dpcXhSqa/2hFNytdl/x61IeWxhh6vlFeSjq0YVTAyIzdjwnL7nEmZpjfI6y6/Ufhy7w==
+=======
+web3-eth-accounts@^4.0.1-alpha.1, web3-eth-accounts@^4.0.1-alpha.2:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-accounts/-/web3-eth-accounts-4.0.1-alpha.2.tgz#2d10ef9c4248c8d3fcb5cd2132933eb407a30a92"
+  integrity sha512-bGQoas3aPYPjfwl4NVeAM9jC9Vw9gAlhUUrCxN6TSPatUr+6w/4U4XRn5Di5xCc4VheC9V8x0/tPQuB7khe7QQ==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     "@types/bn.js" "^5.1.1"
     web3-core "1.10.0"
@@ -23527,10 +23589,44 @@ web3-eth-contract@1.10.0:
     web3-eth-abi "1.10.0"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-ens@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-ens/-/web3-eth-ens-1.10.0.tgz#96a676524e0b580c87913f557a13ed810cf91cd9"
   integrity sha512-3hpGgzX3qjgxNAmqdrC2YUQMTfnZbs4GeLEmy8aCWziVwogbuqQZ+Gzdfrym45eOZodk+lmXyLuAdqkNlvkc1g==
+=======
+web3-eth-contract@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-contract/-/web3-eth-contract-1.8.1.tgz#bdf3e33bbcb79a1b6144dffd6a0deefd2e459272"
+  integrity sha512-1wphnl+/xwCE2io44JKnN+ti3oa47BKRiVzvWd42icwRbcpFfRxH9QH+aQX3u8VZIISNH7dAkTWpGIIJgGFTmg==
+  dependencies:
+    "@types/bn.js" "^5.1.0"
+    web3-core "1.8.1"
+    web3-core-helpers "1.8.1"
+    web3-core-method "1.8.1"
+    web3-core-promievent "1.8.1"
+    web3-core-subscriptions "1.8.1"
+    web3-eth-abi "1.8.1"
+    web3-utils "1.8.1"
+
+web3-eth-contract@^4.0.1-alpha.1, web3-eth-contract@^4.0.1-alpha.2:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-contract/-/web3-eth-contract-4.0.1-alpha.2.tgz#3d4402f9762d08e396ebc4f1474b412b3bc31a22"
+  integrity sha512-RQtwyLXcgZ99spTUQzc6sqtrAzgSUYOh22YoMHptOKZ5BR2dXXhd7Js+ngkAq8MXC6PWXdDoZq37PzYLswcz/g==
+  dependencies:
+    web3-core "^4.0.1-alpha.2"
+    web3-errors "^0.1.1-alpha.2"
+    web3-eth "^4.0.1-alpha.2"
+    web3-eth-abi "^4.0.1-alpha.2"
+    web3-types "^0.1.1-alpha.2"
+    web3-utils "^4.0.1-alpha.2"
+    web3-validator "^0.1.1-alpha.2"
+
+web3-eth-ens@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-ens/-/web3-eth-ens-1.8.1.tgz#e78a9651fea8282abe8565b001819e2d645e5929"
+  integrity sha512-FT8xTI9uN8RxeBQa/W8pLa2aoFh4+EE34w7W2271LICKzla1dtLyb6XSdn48vsUcPmhWsTVk9mO9RTU0l4LGQQ==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     content-hash "^2.5.2"
     eth-ens-namehash "2.0.8"
@@ -23541,18 +23637,64 @@ web3-eth-ens@1.10.0:
     web3-eth-contract "1.10.0"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-iban@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-1.10.0.tgz#5a46646401965b0f09a4f58e7248c8a8cd22538a"
   integrity sha512-0l+SP3IGhInw7Q20LY3IVafYEuufo4Dn75jAHT7c2aDJsIolvf2Lc6ugHkBajlwUneGfbRQs/ccYPQ9JeMUbrg==
+=======
+web3-eth-ens@^4.0.1-alpha.1:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-ens/-/web3-eth-ens-4.0.1-alpha.2.tgz#f3aae19ac5567217172ca6e80b8094cd5183fdc8"
+  integrity sha512-g+Wa4zEjV2w+EVnaa3Ubh37/poXJA1cT3o/bdbyEolalXorubgxgUPRwG+s1E4jzVnu87fK7F0ax48M9Bfsm1g==
+  dependencies:
+    idna-uts46-hx "^3.5.0"
+    web3-core "^4.0.1-alpha.2"
+    web3-errors "^0.1.1-alpha.2"
+    web3-eth "^4.0.1-alpha.2"
+    web3-eth-contract "^4.0.1-alpha.2"
+    web3-net "^4.0.1-alpha.2"
+    web3-types "^0.1.1-alpha.2"
+    web3-utils "^4.0.1-alpha.2"
+
+web3-eth-iban@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-1.8.1.tgz#c6484e5d68ca644aa78431301e7acd5df24598d1"
+  integrity sha512-DomoQBfvIdtM08RyMGkMVBOH0vpOIxSSQ+jukWk/EkMLGMWJtXw/K2c2uHAeq3L/VPWNB7zXV2DUEGV/lNE2Dg==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     bn.js "^5.2.1"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth-personal@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth-personal/-/web3-eth-personal-1.10.0.tgz#94d525f7a29050a0c2a12032df150ac5ea633071"
   integrity sha512-anseKn98w/d703eWq52uNuZi7GhQeVjTC5/svrBWEKob0WZ5kPdo+EZoFN0sp5a5ubbrk/E0xSl1/M5yORMtpg==
+=======
+web3-eth-iban@^4.0.0-alpha.0:
+  version "4.0.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-4.0.0-alpha.0.tgz#e72cfbd47d5b18143b1323d3371752bad14c1b2d"
+  integrity sha512-BBeBeUsAfCJ8mX//pHvYCQJb+tyjbZXZBeHKZKQIWKfCZGqYNHFD49Lxerzwn6Ovum5+6PFSP8IhO247JIvE5Q==
+  dependencies:
+    web3-errors "^0.1.0-alpha.0"
+    web3-types "^0.1.0-alpha.0"
+    web3-utils "^4.0.0-alpha.1"
+
+web3-eth-iban@^4.0.1-alpha.1:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-iban/-/web3-eth-iban-4.0.1-alpha.2.tgz#a35f6194a2e3ef2994c7080a025bdf44b1de1cac"
+  integrity sha512-RjacBGXMGwdmkzn9qcHOGGn9DIU+vD9QbY34R9ye9XRPz03hJj2K9Mf7F2hJFtj4tP7r0tr3fZata2wA+bCRNg==
+  dependencies:
+    web3-errors "^0.1.1-alpha.2"
+    web3-types "^0.1.1-alpha.2"
+    web3-utils "^4.0.1-alpha.2"
+
+web3-eth-personal@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-eth-personal/-/web3-eth-personal-1.8.1.tgz#00b5ff1898b62044d25ed5fddd8486168d4827cf"
+  integrity sha512-myIYMvj7SDIoV9vE5BkVdon3pya1WinaXItugoii2VoTcQNPOtBxmYVH+XS5ErzCJlnxzphpQrkywyY64bbbCA==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     "@types/node" "^12.12.6"
     web3-core "1.10.0"
@@ -23561,10 +23703,17 @@ web3-eth-personal@1.10.0:
     web3-net "1.10.0"
     web3-utils "1.10.0"
 
+<<<<<<< HEAD
 web3-eth@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-eth/-/web3-eth-1.10.0.tgz#38b905e2759697c9624ab080cfcf4e6c60b3a6cf"
   integrity sha512-Z5vT6slNMLPKuwRyKGbqeGYC87OAy8bOblaqRTgg94CXcn/mmqU7iPIlG4506YdcdK3x6cfEDG7B6w+jRxypKA==
+=======
+web3-eth-personal@^4.0.1-alpha.1:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth-personal/-/web3-eth-personal-4.0.1-alpha.2.tgz#132c09e614a6f378069b2ba4f9f916eba48b2bd9"
+  integrity sha512-iaayR6QUzdMPA/BomA09iQTgen83VQp+KlBqh6w+v+8w694U5+JSaRfMlMGU5u07p1CPUTgO1dCbGTmk4a1cKg==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     web3-core "1.10.0"
     web3-core-helpers "1.10.0"
@@ -23584,11 +23733,53 @@ web3-net@1.10.0:
   resolved "https://registry.yarnpkg.com/web3-net/-/web3-net-1.10.0.tgz#be53e7f5dafd55e7c9013d49c505448b92c9c97b"
   integrity sha512-NLH/N3IshYWASpxk4/18Ge6n60GEvWBVeM8inx2dmZJVmRI6SJIlUxbL8jySgiTn3MMZlhbdvrGo8fpUW7a1GA==
   dependencies:
+<<<<<<< HEAD
     web3-core "1.10.0"
     web3-core-method "1.10.0"
     web3-utils "1.10.0"
+=======
+    web3-core "1.8.1"
+    web3-core-helpers "1.8.1"
+    web3-core-method "1.8.1"
+    web3-core-subscriptions "1.8.1"
+    web3-eth-abi "1.8.1"
+    web3-eth-accounts "1.8.1"
+    web3-eth-contract "1.8.1"
+    web3-eth-ens "1.8.1"
+    web3-eth-iban "1.8.1"
+    web3-eth-personal "1.8.1"
+    web3-net "1.8.1"
+    web3-utils "1.8.1"
 
-web3-net@^4.0.1-alpha.2:
+web3-eth@^4.0.1-alpha.1, web3-eth@^4.0.1-alpha.2:
+  version "4.0.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-eth/-/web3-eth-4.0.1-alpha.2.tgz#2c1431e8120e700a7ea47290d49469a6bd59914e"
+  integrity sha512-+kysLqr64WDevESy32WHIen9FHDaW92KRxV99VUgC1VAvkui74pDOoMUNZl9gpL5UODhvS4PVBwELxUhvqvyag==
+  dependencies:
+    "@ethereumjs/common" "^2.6.5"
+    "@ethereumjs/tx" "^3.5.2"
+    setimmediate "^1.0.5"
+    web3-core "^4.0.1-alpha.2"
+    web3-errors "^0.1.1-alpha.2"
+    web3-eth-accounts "^4.0.1-alpha.2"
+    web3-net "^4.0.1-alpha.2"
+    web3-providers-ws "^4.0.1-alpha.2"
+    web3-rpc-methods "^0.1.0-alpha.1"
+    web3-types "^0.1.1-alpha.2"
+    web3-utils "^4.0.1-alpha.2"
+    web3-validator "^0.1.1-alpha.2"
+
+web3-net@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-net/-/web3-net-1.8.1.tgz#2bed4d4b93166724129ec33d0e5dea98880285f4"
+  integrity sha512-LyEJAwogdFo0UAXZqoSJGFjopdt+kLw0P00FSZn2yszbgcoI7EwC+nXiOsEe12xz4LqpYLOtbR7+gxgiTVjjHQ==
+  dependencies:
+    web3-core "1.8.1"
+    web3-core-method "1.8.1"
+    web3-utils "1.8.1"
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
+
+web3-net@^4.0.1-alpha.1, web3-net@^4.0.1-alpha.2:
   version "4.0.1-alpha.2"
   resolved "https://registry.yarnpkg.com/web3-net/-/web3-net-4.0.1-alpha.2.tgz#1b0b04b73ad22e9ed18f1c06e38333cef696e4de"
   integrity sha512-UdTEHYRomFz2fo5AsCAx5M5pc+XITGWkXeBWXnXDJtEFulp1gOU8OlQygB9z1oSkxoq/3ijtBHEsTuyTWTQ3+g==
@@ -23663,10 +23854,46 @@ web3-shh@1.10.0:
     web3-core-subscriptions "1.10.0"
     web3-net "1.10.0"
 
+<<<<<<< HEAD
 web3-utils@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.10.0.tgz#ca4c1b431a765c14ac7f773e92e0fd9377ccf578"
   integrity sha512-kSaCM0uMcZTNUSmn5vMEhlo02RObGNRRCkdX0V9UTAU0+lrvn0HSaudyCo6CQzuXUsnuY2ERJGCGPfeWmv19Rg==
+=======
+web3-rpc-methods@^0.1.0-alpha.1:
+  version "0.1.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/web3-rpc-methods/-/web3-rpc-methods-0.1.0-alpha.1.tgz#34022ca96b7d076bb2bb1e9678bc10da9c5cf841"
+  integrity sha512-1MW0C80BeroPo7frLjCxV3cNKQqZsss/6B70gxGw+9ILcDDLrDaIVedIuUMGUUlDv7WbOB7tOJyCg65HouB/9g==
+  dependencies:
+    web3-core "^4.0.1-alpha.2"
+    web3-types "^0.1.1-alpha.2"
+    web3-validator "^0.1.1-alpha.2"
+
+web3-shh@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-shh/-/web3-shh-1.8.1.tgz#028a95cf9d3a36020380938b9a127610efbb9be7"
+  integrity sha512-sqHgarnfcY2Qt3PYS4R6YveHrDy7hmL09yeLLHHCI+RKirmjLVqV0rc5LJWUtlbYI+kDoa5gbgde489M9ZAC0g==
+  dependencies:
+    web3-core "1.8.1"
+    web3-core-method "1.8.1"
+    web3-core-subscriptions "1.8.1"
+    web3-net "1.8.1"
+
+web3-types@^0.1.0-alpha.0:
+  version "0.1.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/web3-types/-/web3-types-0.1.0-alpha.0.tgz#58c6fab693804ed9e4afa4663d52c38681163057"
+  integrity sha512-tJhcPOiJGk/D9tXmgI/a3SmAroyBXllRmZneJH0cNNuGlxG4vylyLKdxP0/XX2eFSHTTCkXr7VOhvZrwTZwj+g==
+
+web3-types@^0.1.1-alpha.1, web3-types@^0.1.1-alpha.2:
+  version "0.1.1-alpha.2"
+  resolved "https://registry.yarnpkg.com/web3-types/-/web3-types-0.1.1-alpha.2.tgz#bcb9b4ae923f93d63f864c51ea74fa7c884f9449"
+  integrity sha512-O15b3ZrEzWLgqVhGoN4XOhXBlDKwGUbycWME0KHdQcPCVv6sR7fgDo3YttI0rvv6MuQQ9bAeOor9wMnsnAHs/A==
+
+web3-utils@1.8.1, web3-utils@^1.0.0-beta.31:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.8.1.tgz#f2f7ca7eb65e6feb9f3d61056d0de6bbd57125ff"
+  integrity sha512-LgnM9p6V7rHHUGfpMZod+NST8cRfGzJ1BTXAyNo7A9cJX9LczBfSRxJp+U/GInYe9mby40t3v22AJdlELibnsQ==
+>>>>>>> bda4fc0d9 (:art: Fix the issues raised after merging base branch)
   dependencies:
     bn.js "^5.2.1"
     ethereum-bloom-filters "^1.0.6"
@@ -23693,7 +23920,7 @@ web3-utils@^4.0.0-alpha.1:
   dependencies:
     ethereumjs-util "^7.0.10"
 
-web3-utils@^4.0.1-alpha.2:
+web3-utils@^4.0.1-alpha.1, web3-utils@^4.0.1-alpha.2:
   version "4.0.1-alpha.2"
   resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-4.0.1-alpha.2.tgz#ad7abfd831e1a181cad80aee9cb7d71d50a3603e"
   integrity sha512-kA3m1x0YdIggX5YY37etzibV4TxB3Q7Zz9t1TC43F7eZwN1WkLoZJs8/IStwV6uCIx72X11XxDKgkHNlvWzBBw==
@@ -23737,22 +23964,22 @@ web3@1.10.0:
     web3-utils "1.10.0"
 
 web3@4.0.0-alpha.1, web3@^4.0.0-alpha.1:
-  version "4.0.1-alpha.2"
-  resolved "https://registry.yarnpkg.com/web3/-/web3-4.0.1-alpha.2.tgz#fbaf0185ce57f33dfc5e45b270c11aaa3c96bc22"
-  integrity sha512-KiFAIye15gFiibBPpziY6X1T09nxv7+lJylNdzo+1EP60vGX0DjdQvKYmoNFxYsWiX2G/E6y9A4anmKAGmvOKQ==
+  version "4.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/web3/-/web3-4.0.1-alpha.1.tgz#fdfce30e8ac97950af5159dc2cad091a72a30a43"
+  integrity sha512-+evJlWSNowkVZgbJVGSMDkkX0Fe4hsjbQI/Y2DwaSLLWtz6Vj3of4mHWw5To4HH+2zdQ5CfeIxt8qOnFtz1j6g==
   dependencies:
-    web3-core "^4.0.1-alpha.2"
-    web3-errors "^0.1.1-alpha.2"
-    web3-eth "^4.0.1-alpha.2"
-    web3-eth-abi "^4.0.1-alpha.2"
-    web3-eth-accounts "^4.0.1-alpha.2"
-    web3-eth-contract "^4.0.1-alpha.2"
-    web3-eth-ens "^4.0.1-alpha.2"
-    web3-eth-iban "^4.0.1-alpha.2"
-    web3-eth-personal "^4.0.1-alpha.2"
-    web3-net "^4.0.1-alpha.2"
-    web3-types "^0.1.1-alpha.2"
-    web3-utils "^4.0.1-alpha.2"
+    web3-core "^4.0.1-alpha.1"
+    web3-errors "^0.1.1-alpha.1"
+    web3-eth "^4.0.1-alpha.1"
+    web3-eth-abi "^4.0.1-alpha.1"
+    web3-eth-accounts "^4.0.1-alpha.1"
+    web3-eth-contract "^4.0.1-alpha.1"
+    web3-eth-ens "^4.0.1-alpha.1"
+    web3-eth-iban "^4.0.1-alpha.1"
+    web3-eth-personal "^4.0.1-alpha.1"
+    web3-net "^4.0.1-alpha.1"
+    web3-types "^0.1.1-alpha.1"
+    web3-utils "^4.0.1-alpha.1"
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
